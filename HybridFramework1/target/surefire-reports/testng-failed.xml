@@ -5,9 +5,19 @@
     <classes>
       <class name="TestLayer.HomepageTest">
         <methods>
+          <include name="validateUrl"/>
+          <include name="validateTitle"/>
           <include name="validateLogo"/>
+          <include name="validateUserOnHomePage"/>
         </methods>
       </class> <!-- TestLayer.HomepageTest -->
+      <class name="TestLayer.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateLoginFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestLayer.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
